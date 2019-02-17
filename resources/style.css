@@ -1,3 +1,23 @@
 .container {
   display: flex;
 }
+
+.header {
+  display: flex;
+  width: 100%;
+}
+
+.header img {
+  justify-content: flex-start;
+}
+
+.header ul {
+  display: inline-flex;
+  justify-content: flex-end;
+
+}
+
+.header li {
+  margin: 0 auto;
+  justify-content: flex-end;
+}
