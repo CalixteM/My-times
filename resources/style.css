@@ -1,23 +1,132 @@
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.main {
+  display: inline-flex;
+  border: 1px solid black;
+}
+
 .container {
-  display: flex;
+  display: inline-flex;
+  border: 1px solid black;
+}
+
+.first {
+  display: inline-flex;
+  border: 1px solid black;
+  width: 630px;
+  flex-wrap: wrap;
+}
+
+.2ndhalf {
+  flex-direction: row;
 }
 
 .header {
   display: flex;
   width: 100%;
+  border-bottom: 1px solid black;
+  padding: 10px 0px 10px 0px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .header img {
   justify-content: flex-start;
+  position: relative;
+  left: 20px;
+}
+
+.header p {
+  color: MediumAquamarine;
+  width: 160px;
+  margin-left: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+
 }
 
 .header ul {
   display: inline-flex;
   justify-content: flex-end;
-
+  align-items: center;
+  width: 100%;
 }
 
 .header li {
-  margin: 0 auto;
-  justify-content: flex-end;
+  list-style-type: none;
+  color: black;
+  width: 100px;
+}
+
+.funny-phish {
+  flex-direction:column;
+}
+
+.phishh1 {
+  display: flex;
+  background-image: url("./img-story-main.png");
+  height: auto;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  justify-content: flex-start;
+}
+
+.FBI {
+  width: 300px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.news-bites {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+ .news-bites ul{
+   list-style-type: none;
+ }
+
+.news-bites h3{
+  margin: 0px auto;
+}
+
+.orca {
+  flex-direction: column;
+}
+
+.burger {
+  flex-direction: column;
+}
+
+.back2017 {
+  display: inline-flex;
+  background-image: url(./img-story-2.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.camera {
+  display: inline-flex;
+  background-image: url(./img-story-3.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.cats {
+  display: inline-flex;
+  background-image: url(./img-story-1.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
